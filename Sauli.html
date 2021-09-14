@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+
+       let counter = 0;
+
+       function count()
+       {
+           counter++;
+           document.querySelector('#counter').innerHTML = counter;
+
+           if (counter % 10 ==)
+       }
+        </script>
+
+    <title>Sauli Website</title>
+    <link rel="stylesheet" a href="Sauli.css">
+    <link rel="stylesheet" a href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<script type="text/javascript">
+
+var queryString = window.location.search,
+urlParams = new URLSearchParams(queryString);
+
+if(urlParams.has('Read More')=== true)
+{
+    Read_More = urlParams.get('Read More');
+
+    document.getElementById('Read More').clicked = true;
+
+    document.getElementById('YOUR_FORM_SUBMIT_BUTTON').click();
+}
+
+</script>
+<body>
+    <section id="banner">
+        <div class="banner-text">
+            <h1>This is Sauli Luxury Bus</h1>
+            <p>It is a company of buses which transports customers from Mbeya to Dar es Salaam on a daily routine</p>
+            <p>The price is 44000/= from Dar es Salaam to Mbeya with Scania Gemilang and Mercedes Benz bus</p>
+            <p>A new scania Marcopolo g7 has been added to make sauli luxury routes more efficient </p>
+            <div class="button">
+                
+                    <a href = anotherPage.html>Read More</a>
+            
+            </div>
+        </div>
+
+
+        </section>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li> <a href= anotherPage_1.html>HOME</a></li>
+                    <li><a href= anotherPage_2.html>SERVICES_RENDERED</a> </li>  
+                    <li><a href= anotherPage_3.html>ABOUT SAULI LUXURY BUS</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <div id="manuBtn">
+            <img src="images/align-justify.svg" id="menu">
+        </div>
+
+        <!--Services-->
+
+        <section id="Service">
+            <div class="title-text">
+                <p>SERVICES</p>
+                <h1>Why Choose Us</h1>
+            </div>
+            
+            <div class="Service-box">
+                <div class="Services">
+                  <h1>Experienced drivers</h1>
+                  <div class="Services-description">
+                      <div class="Service-icon">
+                        <i class="fa fa-shield"></i>
+                      </div>
+                      <div class="Service-text">
+                          <p>The services include experienced drivers who always arrive on time whose names are:</p>
+                          <ul>
+                              <li>Goodluck Mwinuka</li>
+                              <li>Festo Kibiki</li>
+                              <li>Njau</li>
+                              <li>Tito</li>
+                              <li>Tege boy</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <h1>Pre Booking online</h1>
+                  <div class="Services-description">
+                      <div class="Service-icon">
+                        <i class="fa fa-check-square-o"></i>
+                      </div>
+                      
+                  </div>
+                  <h1>Affordable Cost</h1>
+                  <div class="Services-description">
+                      <div class="Service-icon">
+                        <i class="fa fa-inr"></i>
+                      </div>
+                     
+                  
+                
+                <div class="Services-img">
+                    <img src="images/Mwinuka.jpg">
+                    <img src="images/NjauDpn.jpg">
+                    <img src="images/MwanaDPN.jpg">
+                    <img src="images/Tegeboy.jpg"> 
+                    <img src="images/NabiiTito.jpg">
+                    <img src="images/MwanaBenz.jpg">
+                    <img src="images/Mfukuzwa.jpg">
+                </div>
+            </div>
+        </section>
+        <script>
+        var menuBtn = document.getElementById("manuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+         
+        sideNav.style.right = "-250px";
+
+        menuBtn.onclick = function()
+        {
+            if(sideNav.style.right == "-250px")
+            {
+                sideNav.style.right = "0";
+                menu.src = "images/window-close.svg";
+            }
+            else
+            {
+                sideNav.style.right = "-250px";
+                menu.src = "images/align-justify.svg";
+            }
+        }
+
+            </script>
+
+</body>
+</html>
